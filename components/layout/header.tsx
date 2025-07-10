@@ -120,10 +120,7 @@ export default function Header() {
               </nav>
 
               <div className="mt-8 pt-8 border-t space-y-4">
-                <div className="flex items-center text-gray-600 text-sm">
-                  <Phone className="h-4 w-4 mr-2" />
-                  +91 22 4567 8900
-                </div>
+                
                 <Link href="https://calendly.com/rahulkumarcfa1808/30min">
                 <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg">
                   Get Started
