@@ -127,7 +127,7 @@ Smart Planning. Secure Future. RK Wealth.
               </div>
               <div className="relative">
                 <Image
-                  src="/iwm-logo.png?height=500&width=600"
+                  src="/rklogo.png?height=400&width=400"
                   alt="Our Story"
                   width={600}
                   height={500}
