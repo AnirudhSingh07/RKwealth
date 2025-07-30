@@ -21,7 +21,7 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: "Phone Numbers",
-      details: ["+91 9315900933 (Main)"],
+      details: ["+91 9685545543 (Main)"],
     },
     {
       icon: Mail,
@@ -44,7 +44,7 @@ export default function ContactPage() {
     {
       city: "Indore",
       address: "203-B, Silver Sanchora ,RNT Marg Indore (M.P) 452001",
-      phone: "+91 9303312930",
+      phone: "+91 9685545543",
       email: "care.rkwealth@gmail.com",
     },
   ]
