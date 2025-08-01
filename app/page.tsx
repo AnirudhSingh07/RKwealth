@@ -192,7 +192,7 @@ export default function HomePage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16 animate-fade-in-up delay-600">
-              <Link href="https://calendly.com/rahulkumarcfa1808/30min">
+              <Link href="https://calendly.com/care-rkwealth/30min">
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-gold-500 to-gold-600 font-extralight hover:from-gold-600 hover:to-gold-700 text-white  px-8 py-4 text-lg shadow-2xl hover:shadow-gold-500/25 transition-all duration-300 transform hover:scale-105"

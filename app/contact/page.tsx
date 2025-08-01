@@ -215,7 +215,7 @@ export default function ContactPage() {
             Schedule a free consultation with our financial experts and take the first step towards achieving your
             financial goals.
           </p>
-          <Link href="https://calendly.com/rahulkumarcfa1808/30min">
+          <Link href="https://calendly.com/care-rkwealth/30min">
           <Button size="lg" className="bg-gold-500 hover:bg-gold-600 text-black font-semibold px-8">
             Schedule Free Consultation
           </Button>
