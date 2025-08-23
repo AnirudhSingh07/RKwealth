@@ -21,7 +21,7 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: "Phone Numbers",
-      details: ["+91 9685545543 (Main)"],
+      // details: ["+91 9685545543 (Main)"],
     },
     {
       icon: Mail,
@@ -44,8 +44,8 @@ export default function ContactPage() {
     {
       city: "Indore",
       address: "203-B, Silver Sanchora ,RNT Marg Indore (M.P) 452001",
-      phone: "+91 9685545543",
-      email: "care.rkwealth@gmail.com",
+      // phone: "+91 9685545543",
+      // email: "care.rkwealth@gmail.com",
     },
   ]
 
@@ -89,7 +89,7 @@ export default function ContactPage() {
             </CardHeader>
             
             {/* Responsive iframe container */}
-            <CardContent className="space-y-6">
+            {/* <CardContent className="space-y-6">
               <div className="relative aspect-[1/3] w-full overflow-hidden rounded-lg bg-gray-100">
                 <iframe
                   src="https://docs.google.com/forms/d/e/1FAIpQLScVwXcF-TJ5FqbFHPpZvqxL8QfNXywYUSnqAhDLKc0jBZUBWQ/viewform?embedded=true"
@@ -97,7 +97,7 @@ export default function ContactPage() {
                   
                 />
               </div>
-            </CardContent>
+            </CardContent> */}
           </Card>
         </div>
 
@@ -127,11 +127,11 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">{info.title}</h3>
                       <div className="space-y-2 md:space-y-3">
-                        {info.details.map((detail, detailIndex) => (
+                        {/* {info.details.map((detail, detailIndex) => (
                           <p key={detailIndex} className="text-sm md:text-base text-gray-600">
                             {detail}
                           </p>
-                        ))}
+                        ))} */}
                       </div>
                     </div>
                   </div>
@@ -215,11 +215,11 @@ export default function ContactPage() {
             Schedule a free consultation with our financial experts and take the first step towards achieving your
             financial goals.
           </p>
-          <Link href="https://calendly.com/care-rkwealth/30min">
+          {/* <Link href="https://calendly.com/care-rkwealth/30min">
           <Button size="lg" className="bg-gold-500 hover:bg-gold-600 text-black font-semibold px-8">
             Schedule Free Consultation
           </Button>
-          </Link>
+          </Link> */}
         </div>
       </section>
     </div>

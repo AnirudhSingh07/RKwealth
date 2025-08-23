@@ -121,11 +121,11 @@ export default function Header() {
 
               <div className="mt-8 pt-8 border-t space-y-4">
                 
-                <Link href="https://calendly.com/care-rkwealth/30min">
+                {/* <Link href="https://calendly.com/care-rkwealth/30min"> */}
                 <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg">
                   Get Started
                 </Button>
-                </Link>
+                {/* </Link> */}
               </div>
             </SheetContent>
           </Sheet>
