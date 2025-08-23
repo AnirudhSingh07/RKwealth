@@ -44,14 +44,14 @@ export default function Footer() {
               across India.
             </p>
             <div className="space-y-3">
-              <div className="flex items-center text-gray-400">
+              {/* <div className="flex items-center text-gray-400">
                 <Phone className="h-4 w-4 mr-3" />
                 +91 9685545543
-              </div>
-              <div className="flex items-center text-gray-400">
+              </div> */}
+              {/* <div className="flex items-center text-gray-400">
                 <Mail className="h-4 w-4 mr-3" />
                 care.rkwealth@gmail.com
-              </div>
+              </div> */}
               <div className="flex items-start text-gray-400">
                 <MapPin className="h-4 w-4 mr-3 mt-1" />
                 <span className="text-sm">
