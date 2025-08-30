@@ -1,3 +1,4 @@
+/*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -58,7 +59,7 @@
   }
 }
 
-/* Custom Animations */
+/* Custom Animations 
 @keyframes fade-in-up {
   from {
     opacity: 0;
@@ -135,13 +136,13 @@
   animation-delay: 1000ms;
 }
 
-/* Grid Pattern */
+/* Grid Pattern 
 .bg-grid-pattern {
   background-image: radial-gradient(circle, #000 1px, transparent 1px);
   background-size: 20px 20px;
 }
-
-/* Custom scrollbar */
+*/
+/* Custom scrollbar 
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -158,13 +159,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to bottom, #2563eb, #7c3aed);
 }
-
+*/
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Line clamp utilities */
+/* Line clamp utilities 
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -179,22 +180,23 @@ html {
   overflow: hidden;
 }
 
-/* Glassmorphism effect */
+*/
+/* Glassmorphism effect 
 .glass {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-
-/* Gradient text */
+*/
+/* Gradient text 
 .gradient-text {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
-/* Hover effects */
+*/
+/* Hover effects 
 .hover-lift {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -203,8 +205,8 @@ html {
   transform: translateY(-5px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
-
-/* Button glow effect */
+*/
+/* Button glow effect
 .btn-glow {
   position: relative;
   overflow: hidden;
@@ -224,3 +226,4 @@ html {
 .btn-glow:hover::before {
   left: 100%;
 }
+ */
